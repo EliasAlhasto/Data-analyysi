@@ -1,7 +1,7 @@
-number1 = 20
+number1 = 30
 number2 = 20
 
-if number1 == number2:
-    print("number1 and number2 are equal")
+if number1 > number2:
+    print("number1 is greater than number2")
 else:
-    print("number1 and number2 are not equal")
+    print("number1 is not greater than number2")
