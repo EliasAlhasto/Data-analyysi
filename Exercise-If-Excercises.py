@@ -1,30 +1,13 @@
-number1 = 10
-number2 = 10
-number3 = 5
+name1 = "Jaakko"
+name2 = "Pekka"
+name3 = "Milla"
 
-#2a
-print("All numbers are equal:", number1 == number2 == number3)
+print("name1 == name2:", name1 == name2)
+print("name1 != name2:", name1 != name2)
 
-#2b
-print("Either number1 == number2 OR number2 == number3:", 
-      number1 == number2 or number2 == number3)
-
-#2c
-print("number1 > number2 AND number1 > number3:", 
-      number1 > number2 and number1 > number3)
-
-#2d
-if number1 > number2:
-    print("number1 > number2")
-elif number2 > number3:
-    print("number2 > number3")
+if name1 == name2:
+    print("name1 == name2")
+elif name1 == name3:
+    print("name1 == name3")
 else:
     print("Neither condition is true")
-
-#2e
-if number1 == number2:
-    print("number1 == number2")
-elif number1 == number3:
-    print("number1 == number3")
-else:
-    print("None of them are the same")
