@@ -1,5 +1,4 @@
 furniture = ["table", "chair", "shelf", "sofa", "lamp"]
 
-print("Print whole list")
-print(furniture)
-
+print("\nFirst two elements of the list:")
+print(furniture[:2])
