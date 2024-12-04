@@ -1,6 +1,6 @@
-furniture = ["table", "chair", "shelf", "sofa", "lamp"]
+import random
 
-print("\nChecking if 'Sofa' is in the list:")
-for item in furniture:
-    if item.lower() == "sofa":
-        print("Sofa found")
+thrownDice = []
+
+for _ in range(5):
+    thrownDice.append(random.randint(1, 6))
