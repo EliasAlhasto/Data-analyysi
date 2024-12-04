@@ -7,3 +7,6 @@ for _ in range(5):
 
     print("\nList of thrown dice numbers:")
     print(thrownDice)
+
+    total_sum = sum(thrownDice)
+    print("\nSum of the thrown dice numbers:", total_sum)
