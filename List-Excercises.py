@@ -1,4 +1,6 @@
 furniture = ["table", "chair", "shelf", "sofa", "lamp"]
 
-print("\nFirst two elements of the list:")
-print(furniture[:2])
+print("\nChecking if 'Sofa' is in the list:")
+for item in furniture:
+    if item.lower() == "sofa":
+        print("Sofa found")
